@@ -1,0 +1,252 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.mini-nav{
+    background-color: black;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-nav > h3{
+    color: white;
+    font-size: small;
+}
+
+
+nav{
+    background-color: #917fb3;
+    color: white;
+    margin: 0%;
+    height: 4.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+ 
+   
+}
+
+a{
+    list-style: none;
+    font-size: 1rem;
+    font-family:  Roboto , sans-serif;
+    text-decoration: none;
+    color: #fffffa;
+}
+
+body{
+    background-color: #d7c5f7;
+}
+
+.footer-principal{
+    display: flex;
+    flex-direction: row;
+    background-color: #917fb3;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3rem 4rem;
+    margin-bottom: 0%;
+
+}
+
+.container-redes{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2.5rem 
+    
+}
+
+.container-ubicacion{
+    padding-left: 8rem;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1.5rem 
+}
+
+.png-redes{
+    width: 2rem;
+    height: 2rem;
+}
+
+.container-productos{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    flex-wrap: wrap;
+   
+    justify-content: space-around;
+    padding: 8rem 10rem 10rem 10rem;
+}
+
+
+.img-container{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div-card{
+    padding: 5rem, 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 480px;
+    background-color: #c3b4ec;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    width: 250px;
+    color: black;
+    background-color: #a492c4;
+    border: 0;
+    
+    
+}
+
+/*DETALLES PRODUCTO*/
+
+.img-container-detalle{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.detalle-producto{
+    padding: 0rem 4rem 4rem 4rem;
+}
+
+.descripcion-producto{
+    padding: 0rem 9rem;
+}
+
+.descripcion-producto > p{
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.notas{
+    padding: 2rem 10rem;
+}
+
+
+/*NOSOTROS*/
+
+
+.titulo-container, .essenza-bella{
+    border-style: double;
+    color: #8271a1;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #8271a1;
+    text-shadow: black;
+  
+    text-align: center;
+    padding: 2rem;
+    font-style: oblique;
+    font-weight:100;
+    font-size: 3.125rem;
+    text-decoration: underline .0313rem;
+    vertical-align: middle;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.essenza-bella > h1{
+    background-color: ·#917FB3;
+    
+    color: #8271a1;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    align-items: center;
+    
+    
+}
+
+
+
+
+.container-nosotros{
+    padding: 4rem 8rem;
+    background-color: #c3b4ec;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+
+.mision , .valores{
+    
+    padding: 1rem 8rem;
+    background-color: #c3b4ec;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+}
+
+.container-nosotros > h2{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.mision > h2, .valores > h2{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+
+
+.container-nosotros > dt , .container-nosotros > dd {
+    margin-bottom: 1rem;
+}
+
+.mision > dt , .mision  > dd{
+    margin-bottom: 1rem;
+}
+.valores > dt , .valores  > dd{
+    margin-bottom: 1rem;
+}
+
+dt{
+    text-decoration: underline;
+}
