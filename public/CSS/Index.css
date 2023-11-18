@@ -256,7 +256,7 @@ dt{
    
     /* RESPONSIVE INICIO / APP */ 
 
-    *{
+    *, body {
         box-sizing: border-box;
         margin: 0;
 
