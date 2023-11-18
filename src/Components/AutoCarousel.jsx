@@ -8,21 +8,21 @@ const AutoCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./public/Carousel/MUG-AD1.png"
+          src="/Carousel/MUG-AD1.png"
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./public/Carousel/Foto perfume carousel2.jpg"
+          src="/Carousel/Foto perfume carousel2.jpg"
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./public/Carousel/Foto perfume carousel3.jpg"
+          src="/Carousel/Foto perfume carousel3.jpg"
           alt="Third slide"
         />
       </Carousel.Item>
