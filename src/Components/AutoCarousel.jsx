@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Importa los estilos de Bootstr
 
 const AutoCarousel = () => {
   return (
-    <Carousel>
-      <Carousel.Item>
+    <Carousel className="Carousell"   >
+      <Carousel.Item  className="carousel-img" >
         <img
           className="d-block w-100"
           src="/Carousel/MUG-AD1.png"

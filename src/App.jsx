@@ -12,7 +12,7 @@ function App() {
     <>
      <MiniNav />
      <NavBar />
-     <AutoCarousel />
+     <AutoCarousel/>
      <Footer />
     
     

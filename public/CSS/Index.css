@@ -250,3 +250,73 @@ h1{
 dt{
     text-decoration: underline;
 }
+
+
+@media screen and (min-width:768px) and (max-width: 1024px){
+   
+    /* RESPONSIVE INICIO / APP */ 
+
+    nav{
+        justify-content: center;
+    }
+
+    .mini-nav{
+        justify-content: center;
+    }
+
+
+   
+
+    .footer-principal{
+        width: 100%;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10.5rem ;
+        margin-top: 4rem;
+    }
+
+    .container-ubicacion{
+        width: 100%;
+        padding-left: 4rem ;
+        padding-right: 2rem ;
+        margin-top: 4rem;
+    }
+
+    .faq{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin:4rem 0rem 2rem 0rem;
+        padding-left: 4rem ;
+        padding-right: 2rem;
+    }
+
+
+
+    /*PRODUCTOS*/
+
+    .container-productos{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0%;
+        padding: 3rem;
+
+    }
+
+
+
+
+}
+ /*CELULARES*/
+ 
+ 
