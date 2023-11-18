@@ -7,7 +7,7 @@ function Footer() {
     
     <ul className="container-redes">
    
-      <li> <a href="https://www.instagram.com/"><img src="/public/Redes/Instagram.png" className="png-redes" alt="Nuestro Instagram"/> </a>   </li>
+      <li> <a href="https://www.instagram.com/"><img src="/Redes/Instagram.png" className="png-redes" alt="Nuestro Instagram"/> </a>   </li>
       <li> <a href="https://es-la.facebook.com/"><img src="/Redes/facebook.png" className="png-redes"  alt="Nuestro Facebook"/> </a> </li>
       <li> <a href="https://twitter.com/"><img src="/Redes/Twitter.png" className="png-redes" alt="Nuestro Twitter"/> </a></li>
 
