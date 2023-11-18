@@ -7,11 +7,11 @@ function Footer() {
     
     <ul className="container-redes">
    
-      <li> <a href="https://www.instagram.com/"><img src="/src/assets/Redes/Instagram.png" className="png-redes" alt="Nuestro Instagram"/> </a>   </li>
-      <li> <a href="https://es-la.facebook.com/"><img src="/src/assets/Redes/facebook.png" className="png-redes"  alt="Nuestro Facebook"/> </a> </li>
-      <li> <a href="https://twitter.com/"><img src="/src/assets/Redes/Twitter.png" className="png-redes" alt="Nuestro Twitter"/> </a></li>
+      <li> <a href="https://www.instagram.com/"><img src="/public/Redes/Instagram.png" className="png-redes" alt="Nuestro Instagram"/> </a>   </li>
+      <li> <a href="https://es-la.facebook.com/"><img src="/public/Redes/facebook.png" className="png-redes"  alt="Nuestro Facebook"/> </a> </li>
+      <li> <a href="https://twitter.com/"><img src="/public/Redes/Twitter.png" className="png-redes" alt="Nuestro Twitter"/> </a></li>
 
-      <li> <a href="whatsapp://send?phone=TuNumeroDeTelefonoConCodigoDePais"><img src="/src/assets/Redes/WhatsApp.png" className="png-redes" alt="Nuestro WhatsApp"/> </a></li>
+      <li> <a href="whatsapp://send?phone=TuNumeroDeTelefonoConCodigoDePais"><img src="/public/Redes/WhatsApp.png" className="png-redes" alt="Nuestro WhatsApp"/> </a></li>
    
     </ul>
     

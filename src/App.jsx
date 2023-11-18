@@ -1,6 +1,6 @@
 
 import AutoCarousel from "./Components/AutoCarousel";
-import '/CSS/Index.css' // Corrige la ruta al archivo de estilos
+import '/public/CSS/Index.css'// Corrige la ruta al archivo de estilos
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {NavBar} from "./Components/NavBar";
 import MiniNav from "./Components/MiniNav";
