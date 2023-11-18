@@ -8,7 +8,7 @@ const AutoCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/Carousel/MUG-AD1.png"
+          src="/public/Carousel/MUG-AD1.png"
           alt="First slide"
         />
       </Carousel.Item>
