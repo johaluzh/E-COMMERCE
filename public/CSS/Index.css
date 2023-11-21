@@ -37,7 +37,7 @@ nav{
 ul{
     display: flex;
     flex-direction: row;
-    gap: 48px;
+    gap: 3rem;
  
    
 }
@@ -92,7 +92,7 @@ body{
 .container-productos{
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 2rem;
     flex-wrap: wrap;
    
     justify-content: space-around;
@@ -112,8 +112,8 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 250px;
-    height: 480px;
+    width: 15.625rem;
+    height: 30rem;
     background-color: #c3b4ec;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -121,11 +121,11 @@ body{
 .container-buttons{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: .625rem;
 }
 
 button{
-    width: 250px;
+    width: 15.625rem;
     color: black;
     background-color: #a492c4;
     border: 0;
@@ -226,12 +226,14 @@ h1{
     font-family: 'Playfair Display', serif;
     font-style: italic;
     margin-bottom: 2rem;
+    
 }
 
 .mision > h2, .valores > h2{
     font-family: 'Playfair Display', serif;
     margin-bottom: 2rem;
     font-style: italic;
+    
     
 }
 
@@ -251,5 +253,94 @@ h1{
 dt{
     text-decoration: underline;
     
+    
+    
 }
+
+
+/*TABLETS*/
+
+@media only screen and (max-width:768px) {
+
+   nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-principal {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .container-redes{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .container-ubicacion{
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .faq{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 4rem;
+        padding: 0%;
+    }
+
+
+    /*PRODUCTOS/OFERTAS/NOSOTROS*/
+
+    .container-productos {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem; /* Adjusted for responsiveness */
+        padding: 2rem; /* Adjusted for responsiveness */
+    }
+    
+    .img-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .div-card {
+        padding: 2rem; /* Adjusted for responsiveness */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%; /* Adjusted for responsiveness */
+        background-color: #c3b4ec;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .container-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: .625rem;
+    }
+    
+    button {
+        width: 100%; /* Adjusted for responsiveness */
+        color: black;
+        background-color: #a492c4;
+        border: 0;
+    }
+    
+    
+}
+
+
+
+
+
 
