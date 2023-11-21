@@ -25,7 +25,7 @@ export default function Nosotros() {
     
     <div className="mision">
     
-     <h2>Misión, Visión y Valores:</h2>
+     <h2>Misión y Visión:</h2>
 
        <dt>Misión:</dt>
             <dd>En Essenza Bella  nuestra misión es trascender las expectativas, llevando a nuestros clientes a un viaje sensorial único. Buscamos no solo vender perfumes, sino crear experiencias que despierten emociones y recuerdos perdurables.</dd>

@@ -304,8 +304,8 @@ dt{
     .container-productos {
         display: flex;
         flex-direction: column;
-        gap: 1.25rem; /* Adjusted for responsiveness */
-        padding: 2rem; /* Adjusted for responsiveness */
+        gap: 1.25rem; 
+        padding: 2rem; 
     }
     
     .img-container {
@@ -314,11 +314,11 @@ dt{
     }
     
     .div-card {
-        padding: 2rem; /* Adjusted for responsiveness */
+        padding: 2rem; 
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 100%; /* Adjusted for responsiveness */
+        width: 100%; 
         background-color: #c3b4ec;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
@@ -330,13 +330,96 @@ dt{
     }
     
     button {
-        width: 100%; /* Adjusted for responsiveness */
+        width: 100%; 
         color: black;
         background-color: #a492c4;
         border: 0;
     }
     
     
+}
+
+                /*CELULARES*/
+
+@media only screen and (min-width:320px) and (max-width: 500px){
+    
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav > ul{
+        display: flex;
+        justify-content: center;
+        gap: 8%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .footer-principal {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .container-redes{
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        
+        padding: 0%;
+       
+    }
+
+    
+    .png-redes{
+    width: 1.5rem;
+    height: 1.5rem;
+     }
+
+    .container-ubicacion{
+        display: flex;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+       
+    }
+
+    .faq{
+        display: flex;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+
+        /*PRODUCTOS/OFERTAS/NOSOTROS*/
+
+        div > h1{
+            font-size: 2rem
+        }
+
+        .essenza-bella{
+            margin-bottom: 2rem;
+        }
+
+        .essenza-bella > h1{
+            font-size: 2rem;
+        }
+
+
+        .container-nosotros , .mision , .valores{
+            
+            margin-bottom:   1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            
+        }
+
+        
+
 }
 
 
