@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 export function NavBar() {
   return (
     <nav>
@@ -11,8 +12,10 @@ export function NavBar() {
        <Link to="/Ofertas">Ofertas</Link>
        <Link to="/Nosotros">Nosotros</Link>
        
+       
     </ul>
-</nav>
+    
+    </nav>
   )
 }
 

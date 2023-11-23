@@ -253,8 +253,11 @@ h1{
 dt{
     text-decoration: underline;
     
-    
-    
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
 }
 
 
