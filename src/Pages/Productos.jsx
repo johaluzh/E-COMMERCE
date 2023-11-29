@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import MiniNav from '../Components/MiniNav';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-import Carrito from '../Components/Carrito';
 import MenuHamburguesa from '../Components/MenuHamburguesa';
 
 function Producto({ producto, agregarAlCarrito }) {

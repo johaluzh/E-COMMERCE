@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import MiniNav from '../Components/MiniNav';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-import MenuHamburguesa from '../Components/MenuHamburguesa';
+import MenuHamburguesa from '../Components/MenuHamburguesa'
 
 function Producto({ producto, agregarAlCarrito }) {
   const { id, imagen, nombre, marca, precio, cuotas } = producto;
