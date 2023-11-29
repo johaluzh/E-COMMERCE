@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import MiniNav from '../Components/MiniNav';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-
 import MenuHamburguesa from '../Components/MenuHamburguesa';
 
 function Producto({ producto, agregarAlCarrito }) {
@@ -48,7 +47,6 @@ function OfertasList() {
   const [carrito, setCarrito] = useState([]);
   const [mostrarCarrito, setMostrarCarrito] = useState(false);
   const [mostrarMenu, setMostrarMenu] = useState(false);
-
 
   const agregarAlCarrito = (producto) => {
     const productoEnCarrito = carrito.find((p) => p.id === producto.id);
@@ -111,7 +109,10 @@ function OfertasList() {
       .catch((error) => console.error('Error:', error));
   }, []);
 
-  // Resto del código ...
+  const productosMenoresA100000 = productos.filter((producto) => {
+    const precioNumerico = parseFloat(producto.precio.replace(/[^\d.]/g, ''));
+    return precioNumerico < 100000;
+  });
 
   return (
     <>
@@ -125,7 +126,8 @@ function OfertasList() {
         agregarAlCarrito={agregarAlCarrito}
       />
 
-      <MenuHamburguesa  carrito={carrito}
+      <MenuHamburguesa  
+        carrito={carrito}
         mostrarCarrito={mostrarCarrito}
         setMostrarCarrito={setMostrarCarrito}
         vaciarCarrito={vaciarCarrito}
@@ -133,7 +135,6 @@ function OfertasList() {
         agregarAlCarrito={agregarAlCarrito}
         mostrarMenu={mostrarMenu}
         setMostrarMenu={setMostrarMenu}
-        
       />
 
       <div className='titulo-container'>
@@ -141,7 +142,7 @@ function OfertasList() {
       </div>
 
       <div className='container-productos'>
-        {productos.map((producto) => (
+        {productosMenoresA100000.map((producto) => (
           <Producto key={producto.id} producto={producto} agregarAlCarrito={agregarAlCarrito} />
         ))}
       </div>
