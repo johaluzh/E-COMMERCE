@@ -41,10 +41,12 @@ function MenuHamburguesa({ carrito, mostrarCarrito, setMostrarCarrito, vaciarCar
 
       <nav className={`nav-principal ${menuAbierto ? 'abierto' : 'cerrado'}`}>
       <ul>
-          <Link to="/Home" onClick={cerrarMenu}>Inicio</Link>
-          <Link to="/Producto" onClick={cerrarMenu}>Productos</Link>
-          <Link to="/Ofertas" onClick={cerrarMenu}>Ofertas</Link>
-          <Link to="/Nosotros" onClick={cerrarMenu}>Nosotros</Link>
+      <ul>
+          <Link to="/Home">Inicio</Link>
+          <Link to="/Productos">Productos</Link>
+          <Link to="/Ofertas">Ofertas</Link>
+          <Link to="/Nosotros">Nosotros</Link>
+        </ul>
       </ul>
 
         <div onClick={mostrarCarritoHandler}>
