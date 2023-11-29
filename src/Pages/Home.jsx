@@ -1,19 +1,24 @@
 import AutoCarousel from "../Components/AutoCarousel";
 import Footer from "../Components/Footer";
+import MenuHamburguesa from "../Components/MenuHamburguesa";
 import MiniNav from "../Components/MiniNav";
 import NavBar from "../Components/NavBar";
 
 
-export  function Inicio() {
+export  function Home() {
   return (
     <>
     <div>
      <MiniNav />
      <NavBar />
+     <MenuHamburguesa />
      <AutoCarousel />
-     <Footer />
+     <Footer/>
+     
+     
+     
   </div>
  </>
   )
 }
-export default Inicio;
+export default Home;

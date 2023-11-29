@@ -1,14 +1,15 @@
 import Footer from "../Components/Footer";
+import MenuHamburguesa from "../Components/MenuHamburguesa";
 import MiniNav from "../Components/MiniNav";
 import NavBar from "../Components/NavBar";
+
 
 export default function Nosotros() {
   return (
     <>
-      <div>
-       <MiniNav />
-       <NavBar />
-    </div>
+      <MiniNav />
+      <NavBar />
+      <MenuHamburguesa />
     <div className="essenza-bella">
       <h1>Essenza Bella</h1>
     </div>
@@ -46,8 +47,8 @@ export default function Nosotros() {
 
     </div>
     
+    <Footer />
 
-   <Footer />
 
     
     </>

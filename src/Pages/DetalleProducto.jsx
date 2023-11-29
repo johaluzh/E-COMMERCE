@@ -50,13 +50,12 @@ function DetalleProducto() {
         <dt>Notas de Fondo:</dt>
         <dd>{producto.fondo}</dd>
       </div>
-      <Footer />
+      
     </>
   );
 }
 
 export default DetalleProducto;
-
 
 
 

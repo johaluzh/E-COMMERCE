@@ -1,0 +1,51 @@
+{
+    "preguntasFrecuentes": [
+      {
+        "pregunta": "¿Cómo puedo realizar un pedido?",
+        "respuesta": "Para realizar un pedido, simplemente navega por nuestra tienda en línea, selecciona los productos que te interesan y agrégelos al carrito. Luego, sigue los pasos del proceso de pago para completar tu compra."
+      },
+      {
+        "pregunta": "¿Cuáles son los métodos de pago disponibles?",
+        "respuesta": "Aceptamos varias formas de pago para tu conveniencia. Puedes pagar con tarjeta de crédito, tarjeta de débito o utilizar otros métodos de pago en línea seguros."
+      },
+      {
+        "pregunta": "¿Cómo puedo realizar cambios en mi pedido?",
+        "respuesta": "Si necesitas realizar cambios en tu pedido después de haberlo realizado, por favor, ponte en contacto con nuestro servicio de atención al cliente lo antes posible. Estaremos encantados de ayudarte en la medida de lo posible."
+      }
+    ],
+    "beneficiosYFormasDePago": [
+      {
+        "pregunta": "¿Cuáles son los beneficios de comprar en nuestra tienda en línea?",
+        "respuesta": "Comprar en nuestra tienda en línea te ofrece la comodidad de explorar una amplia variedad de productos desde la comodidad de tu hogar. Además, disfruta de ofertas exclusivas y promociones especiales."
+      },
+      {
+        "pregunta": "¿Puedo realizar el pago contra entrega?",
+        "respuesta": "Actualmente, no ofrecemos la opción de pago contra entrega. Sin embargo, puedes utilizar nuestros métodos de pago en línea seguros para completar tu compra de manera fácil y rápida."
+      }
+    ],
+    "metodosDeEnvio": [
+      {
+        "pregunta": "¿Cuáles son los métodos de envío disponibles y sus tiempos de entrega?",
+        "respuesta": "Ofrecemos diversos métodos de envío que varían según la ubicación y los productos. Durante el proceso de pago, podrás seleccionar la opción de envío que mejor se adapte a tus necesidades, y te proporcionaremos información sobre los tiempos estimados de entrega."
+      }
+    ],
+    "terminosYCondiciones": [
+      {
+        "pregunta": "¿Dónde puedo encontrar los términos y condiciones de la tienda?",
+        "respuesta": "Los términos y condiciones detallados de nuestra tienda se encuentran disponibles en la sección correspondiente de nuestro sitio web. Te recomendamos revisarlos antes de realizar una compra para conocer nuestras políticas."
+      }
+    ],
+    "cambiosYDevoluciones": [
+      {
+        "pregunta": "¿Cuál es nuestra política de cambios y devoluciones?",
+        "respuesta": "Nuestra política de cambios y devoluciones está diseñada para garantizar tu satisfacción. Si por alguna razón necesitas realizar un cambio o devolución, consulta nuestra sección de políticas o comunícate con nuestro equipo de atención al cliente."
+      }
+    ],
+    "defensaAlConsumidor": [
+      {
+        "pregunta": "¿Cómo se protegen mis derechos como consumidor?",
+        "respuesta": "En cumplimiento de las leyes de defensa al consumidor, nos comprometemos a proteger tus derechos y garantizar una experiencia de compra justa y transparente. Si tienes alguna inquietud, no dudes en comunicarte con nuestro equipo de servicio al cliente."
+      }
+    ]
+  }
+  
